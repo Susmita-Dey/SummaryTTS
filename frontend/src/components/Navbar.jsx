@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { DarkThemeToggle } from 'flowbite-react'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -13,9 +14,16 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Navbar() {
+  let authenticated = localStorage.getItem("Authenticated")
+  let name = localStorage.getItem("name")
+  const SignOut = () => {
+    localStorage.clear()
+    window.location.reload()
+
+  }
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg-gray-800 dark:bg-yellow-300">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -63,6 +71,7 @@ export default function Example() {
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <DarkThemeToggle />
                 <button
                   type="button"
                   className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
