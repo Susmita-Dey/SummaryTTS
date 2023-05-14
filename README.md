@@ -6,20 +6,20 @@ SummaryTTS is an application which allows users to generate a summary of any of 
 
 SummaryTTS was built for time saving and helping the disabled!
 
-##How SummaryTTS works ?
-SummaryTTS makes use of OpenAI's Whisper API's to summarize text and uses TTS to read aloud.
+## How SummaryTTS works ?
+SummaryTTS makes use of OpenAI's Whisper and GPT API's to transcribe, summarize text and uses TTS to read aloud.
 
 ## Tools used:
 
-SummaryTTS's frontend was built using a combination of Vite, react, tailwind, html, and css.
-It also uses {placeholder for backend} , OpenAI's API, and several other modules.
+SummaryTTS's frontend is built using a combination of Vite, react, tailwind, html, and css.
+SummaryTTS backend is built using Python, Flask, OpenAI APIs: GPT 3.5 turbo and Whisper, pybraille, and PyPDF2.
 
 # Get started
 
 ### Use the link:
 
 You can click on the link to try out a version of SummaryTTS.
-##Deploy your Own:
+## Deploy your Own:
 You can also deploy your own version of SummaryTTS.
 Follow these Steps: Clone this repo! and type in terminal:
 
