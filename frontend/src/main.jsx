@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import FaqComponent from './components/FAQComponent';
+import Navbar from './components/Navbar';
+import './index.css'
 import Features from './components/Features';
 import FooterComponent from './components/FooterComponent';
 import HeroSection from './components/HeroSection';
-import Navbar from './components/Navbar';
-import './index.css'
+import FileSummary from './components/FileSummary';
+import AboutUs from './components/AboutUs';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -13,8 +14,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Navbar />
       <HeroSection />
       <Features />
-      <FaqComponent />
+      <FileSummary />
+      <AboutUs />
       <FooterComponent />
     </>
-  </React.StrictMode>,
+  </React.StrictMode>
 )

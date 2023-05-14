@@ -1,15 +1,21 @@
 import React from 'react'
+import { Footer } from 'flowbite-react'
 
 export default function FooterComponent() {
     return (
-        <footer className="mt-12 body-font">
-            <div className="bg-blue-950 text-white w-full">
-                <div className="container mx-auto py-6 px-24 flex flex-wrap flex-col">
-                    <p className="text-base text-center font-medium">
-                        &copy; 2023 CodeOpsEditor | Powered by <Link href='/#team'>CodeOpsEditor Team</Link>
-                    </p>
+        <footer className='mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 mt-16 bg-white'>
+            <Footer container={true} bgDark={true}>
+                <div className="w-full text-center">
+                    <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
+                    </div>
+                    <Footer.Divider />
+                    <Footer.Copyright
+                        href="#"
+                        by="SummaryTTS™"
+                        year={2023}
+                    />
                 </div>
-            </div>
+            </Footer>
         </footer>
     )
 }
