@@ -28,7 +28,6 @@ const navigation = [
   { name: 'SummaryTTS', href: '/', current: true },
   { name: 'Home', href: '/', current: false },
   { name: 'About Us', href: '/', current: false },
-
 ]
 
 function classNames(...classes) {
@@ -36,13 +35,15 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
+
   
   return (
-    <Disclosure as="nav" className="bg-gray-800 dark:bg-yellow-300">
+    <Disclosure as="nav" className="bg-white dark:bg-stone-900">
+
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
+            <div className="relative flex h-12 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -146,7 +147,7 @@ export default function Navbar() {
                 <Menu as="div" className="relative ml-3">
                   <div>
                     <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                      
+
                     </Menu.Button>
                   </div>
                   <Transition

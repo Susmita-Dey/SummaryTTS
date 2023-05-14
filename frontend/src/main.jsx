@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Navbar from './components/Navbar';
+import Home from "./Home";
 import './index.css'
 import Features from './components/Features';
 import FooterComponent from './components/FooterComponent';
@@ -10,6 +11,7 @@ import AboutUs from './components/AboutUs';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+
     <>
       <Navbar />
       <HeroSection />
@@ -19,4 +21,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <FooterComponent />
     </>
   </React.StrictMode>
-)
+
