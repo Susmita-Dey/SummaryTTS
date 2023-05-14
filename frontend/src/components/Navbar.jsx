@@ -37,7 +37,7 @@ function classNames(...classes) {
 export default function Navbar() {
 
   return (
-    <Disclosure as="nav" className="bg-white dark:bg-stone-900">
+    <Disclosure as="nav" className="bg-slate-900 dark:bg-stone-900">
 
       {({ open }) => (
         <>
