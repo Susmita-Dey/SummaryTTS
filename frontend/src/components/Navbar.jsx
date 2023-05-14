@@ -3,6 +3,8 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { DarkThemeToggle } from 'flowbite-react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+// <<<<<<< Shubhankar
+// =======
 import {auth, provider} from '../config'
 import {signInWithPopup} from 'firebase/auth'
 
@@ -23,11 +25,16 @@ let Authenticated = false
         localStorage.clear()
         window.location.reload()
     }
+// >>>>>>> main
 
 const navigation = [
   { name: 'SummaryTTS', href: '/', current: true },
   { name: 'Home', href: '/', current: false },
   { name: 'About Us', href: '/', current: false },
+// <<<<<<< Shubhankar
+
+// =======
+// >>>>>>> main
 ]
 
 function classNames(...classes) {
@@ -35,7 +42,6 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-
   
   return (
     <Disclosure as="nav" className="bg-white dark:bg-stone-900">
@@ -133,6 +139,8 @@ export default function Navbar() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
+// Shubhankar
+
 
 
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" onClick={signInWithGoogle}>Sign In With Google</button>
@@ -144,6 +152,7 @@ export default function Navbar() {
 
                 
 
+// >>>>>>> main
                 <Menu as="div" className="relative ml-3">
                   <div>
                     <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">

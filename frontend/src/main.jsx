@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Navbar from './components/Navbar';
 import Home from "./Home";
+
 import './index.css'
 import Features from './components/Features';
 import FooterComponent from './components/FooterComponent';
@@ -22,3 +23,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </>
   </React.StrictMode>
 
+)
