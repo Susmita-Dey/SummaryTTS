@@ -41,5 +41,5 @@ Great you've successfully started the server, now you can access the front end!
 ## Contributors
 
 <div>
-<img src="https://avatars.githubusercontent.com/u/79099734?v=4"  width="40px" height="40px"><p>Susmita Dey</p> <img src="https://avatars.githubusercontent.com/u/48391316?v=4"  width="40px" height="40px"><p>Jaisal Srivastava</p> <img src="https://avatars.githubusercontent.com/u/97114934?v=4"  width="40px" height="40px"><p>Shubhankar</p> <img src="https://avatars.githubusercontent.com/u/104016289?v=4"  width="40px" height="40px"><p>Bhardwaj N</p> 
+<img src="https://avatars.githubusercontent.com/u/79099734?v=4"  width="40px" height="40px"><p>Susmita Dey</p> <img src="https://avatars.githubusercontent.com/u/48391316?v=4"  width="40px" height="40px"><p>Jaisal Srivastava</p> <img src="https://avatars.githubusercontent.com/u/97114934?v=4"  width="40px" height="40px"><p>Shubhankar</p> <img src="https://avatars.githubusercontent.com/u/104016289?v=4"  width="40px" height="40px"><p>Bharadwaj N</p> 
 </div>
